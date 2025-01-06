@@ -1,4 +1,19 @@
-.box {
-  width: 100px;
-  height: 1000px;
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+  /* box-sizing: border-box; */
+  flex-basis: 100px;
+  height: 100px;
+  background-color: pink;
+  padding: 10px;
+  border: 6px solid rebeccapurple;
+  margin: 10px;
 }
