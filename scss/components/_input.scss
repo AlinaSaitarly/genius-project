@@ -7,7 +7,7 @@
     left: 42px;
   }
   &__control {
-    padding: 16px 42px;
+    padding: 8px 24px;
     width: 100%;
     font-size: 16px;
     line-height: 1.17;
@@ -28,6 +28,10 @@
 
     &:focus::placeholder {
       color: var(--color-priemery-dark);
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      padding: 16px 42px;
     }
   }
 }
